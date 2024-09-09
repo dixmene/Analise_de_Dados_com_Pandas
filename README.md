@@ -1,5 +1,6 @@
 # Análise de Dados com Pandas - Projeto Iris
 
+- **Introdução:** Nesta análise, exploramos o dataset Iris para entender suas principais características e identificar possíveis outliers. Focamos em medidas de tendência central e visualização dos dados.
 ## Objetivo
 Este projeto tem como objetivo realizar uma **análise exploratória de dados** utilizando o famoso dataset **Iris**. A análise envolve explorar as características morfológicas de três espécies de flores — *Setosa*, *Versicolor* e *Virginica* — com base no comprimento e na largura das sépalas e pétalas. Também iremos **remover outliers** que possam distorcer os resultados, além de visualizar os dados para identificar padrões e tendências.
 
@@ -115,6 +116,13 @@ plt.show()
 - **Distribuições distintas entre espécies**: As características das pétalas e sépalas permitem diferenciar claramente as espécies.
 - **Remoção de outliers**: A exclusão de dados extremos melhorou a precisão das análises.
 - **Tendências visuais**: As medições das pétalas mostraram maior variação, o que pode ser útil para classificações futuras.
-
+- **Análise Descritiva:** O comprimento médio da sépala é de 5.85 cm. A mediana é 5.8 cm, indicando que a maioria dos valores está próxima a esse número. Os modos indicam os valores mais frequentes
+- **Visualização dos Dados:** Os gráficos mostram a distribuição das características das flores. Observa-se uma dispersão significativa nos comprimentos e larguras das pétalas e sépalas.
+  
 ## Conclusão
+A análise revelou que o comprimento médio da sépala é de 5.85 cm, com a maioria dos valores em torno de 5.8 cm. A distribuição dos dados de comprimento e largura das pétalas é mais dispersa. A remoção de outliers ajudou a obter uma visão mais clara das características principais.
+
 Este projeto demonstrou a importância de uma análise cuidadosa dos dados, desde a **limpeza de outliers** até a **visualização de padrões**. O dataset Iris provou ser um ótimo recurso para prática de **Pandas** e **visualização de dados**.
+
+
+
